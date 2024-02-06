@@ -1,0 +1,66 @@
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.schedule, .to-implement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #151515;
+    border-bottom: 1px solid #151515;
+}
+
+.cross-image{
+    width: 100px;
+    height: 100px;
+}
+
+.week-days{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.week-day-title{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #151515;
+    width: 30vw;
+}
+
+.week-day-img{
+    width: 20px;
+    height: 20px;
+}
+
+.monday, .tuesday, .wednesday, .thursday, .friday, .saturday, .sunday, .to-implement-activities{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.to-implement-activities{
+    width: 79vw;
+    margin: 2rem;
+}
+
+.activity, .to-implement-activity{
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #151515;
+}
+
+@media screen and (max-width: 850px) {
+    .main-title{
+        text-align: center;
+        width: 70vw;
+    }
+    .week-day-title{
+        width: 50vw;
+    }
+}
